@@ -1,0 +1,16 @@
+.ball0,.ball6{
+  background: rgba(255,255,255,0.8);
+}
+.ball1,.ball5{
+  background: rgba(254,173,164,0.8);
+}
+.ball2,.ball9{
+background: rgba(198,174,235,0.8);
+}
+.back {
+  height: 80rpx;
+  width: 100rpx;
+  position: absolute;
+  left:5%;
+  top:5%
+}

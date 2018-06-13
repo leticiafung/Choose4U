@@ -1,0 +1,20 @@
+<view class='container'>
+    <view class='inputarea'>
+      <input placeholder='输入难选择的事' bindconfirm='confirm' focus='{{onfocus}}' value='{{inputValue}}'/>
+      <!-- <image src='../../utils/add.png' bindtap='addList'></image> -->
+      <image src='../../utils/add.png'></image> 
+    </view>
+     
+     
+    <view class='tableBox'>
+      <block wx:for='{{tableData}}' wx:key='index'>
+        <view class= 'inputContent' bindtap='cancel' id="{{item[1]+'input'}}">
+          <text>{{item[0]}}</text>
+          <image src='../../utils/delete.png'></image>
+        </view>
+        </block>
+    </view>
+    <!--bug 一旦超过高度就写不下了  -->
+    <text class='go' bindtap='goRand'> 我写完啦</text>
+    
+</view>

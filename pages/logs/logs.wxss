@@ -1,0 +1,9 @@
+/* .log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+} */
+.container > text {
+  margin: 10rpx;
+  color: white;
+}

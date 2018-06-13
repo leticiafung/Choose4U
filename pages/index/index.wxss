@@ -1,0 +1,33 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+/* .usermotto {
+  margin-top: 200px;
+} */
+.enterball{
+  border-radius: 40rpx; 
+  width: 350rpx;
+  height:100rpx;
+  padding-top: 15px; 
+  font-size:1.2rem; 
+  font-weight: 900;
+  text-align: center;
+  color:  rgba(323,210,22,1);
+  background:  rgba(255,255,255,1);
+
+}

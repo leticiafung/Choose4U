@@ -1,0 +1,35 @@
+<view class="container">
+
+    <image src="../../utils/home1.png" class='back' bindtap='backHome'></image>
+
+    <!--TODO complex mode  -->
+
+<view class='cap_head0'></view>
+<view class='cap_head1'></view>
+<!--ball container  -->
+<view class='cap_head'>
+  <span class='ball ball0' style="left:{{Pos[0].leftPos + '%'}};top:{{Pos[0].topPos+'%'}}"></span>
+  <span class='ball ball1' style="left:{{Pos[1].leftPos + '%'}};top:{{Pos[1].topPos+'%'}}"></span>
+  <span class='ball ball2' style="left:{{Pos[2].leftPos + '%'}};top:{{Pos[2].topPos+'%'}}"></span>
+  <span class='ball ball3' style="left:{{Pos[3].leftPos + '%'}};top:{{Pos[3].topPos+'%'}}"></span> 
+  <span class='ball ball4' style="left:{{Pos[4].leftPos + '%'}};top:{{Pos[4].topPos+'%'}}"></span> 
+  <span class='ball ball5' style="left:{{Pos[5].leftPos + '%'}};top:{{Pos[5].topPos+'%'}}"></span> 
+  <span class='ball ball6' style="left:{{Pos[6].leftPos + '%'}};top:{{Pos[6].topPos+'%'}}"></span> 
+  <span class='ball ball7' style="left:{{Pos[7].leftPos + '%'}};top:{{Pos[7].topPos+'%'}}"></span> 
+  <span class='ball ball8' style="left:{{Pos[8].leftPos + '%'}};top:{{Pos[8].topPos+'%'}}"></span> 
+  <span class='ball ball9' style="left:{{Pos[9].leftPos + '%'}};top:{{Pos[9].topPos+'%'}}"></span>   
+</view>
+<view class='cap_bottomh'></view>
+<!--button & outer  -->
+<view class='cap_bottom'>
+  <button type='default'size='default' bindtap="tapAnimate">Go</button>
+  <!--ball exit  -->
+  <view class='outer'>
+    <span id='ballno'  class='ballout'  wx:if='{{no}}' style="left:{{outleft}};bottom:{{outbottom}};background:{{color}}" animation="{{animationData}}"></span> 
+  </view>
+</view>
+<view class='cap_bottomb'>
+</view>
+
+
+</view>
